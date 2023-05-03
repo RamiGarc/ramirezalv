@@ -1,0 +1,7 @@
+line {
+    counter-increment: song-line;
+  }
+  
+  line::before {
+    content: counter(song-line) ". ";
+  }
