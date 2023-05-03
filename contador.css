@@ -1,7 +1,12 @@
-line {
-    counter-increment: song-line;
-  }
-  
-  line::before {
-    content: counter(song-line) ". ";
-  }
+p {
+    color: blue !important;
+    background-color: yellow;
+}
+
+h2 {}
+
+body {}
+
+.rojos {
+    color: red;
+}
