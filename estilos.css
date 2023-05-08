@@ -1,0 +1,149 @@
+* {
+	padding: 0%;
+	margin: 0.5%;
+	box-sizing: border-box;
+}
+
+body {
+	background: #c7fafa;
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+}
+
+li {
+	display: inline-block;
+	width: 5%;
+	height: 2em;
+	background-color: goldenrod;
+	border-radius: 5px;
+	margin: 5px;
+	border-width: 0px 1px 1px 0px;
+	background: #174D4D;
+	color: #ffffff;
+	border-style: solid;
+	text-align: center;
+	padding-top: 1%;
+	font-size: xx-large;
+	box-shadow: 2px 2px darkolivegreen;
+}
+
+nav {
+	background-color: lightseagreen;
+}
+
+#select {
+	box-shadow: 2px 2px darkolivegreen inset;
+}
+
+li#select {
+	background-color: green (218, 165, 32, 0.677);
+}
+
+article {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+#pa1 {
+	color: blueviolet;
+}
+
+#pa2 {
+	color: lawngreen;
+	column-count: 1;
+}
+
+#pa3 {
+	color: mediumaquamarine;
+}
+
+main {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 30%;
+}
+
+.contenedor {
+	width: 1200px;
+	margin: auto;
+	padding: 100px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 58px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	color: #03363D;
+	border: 5px solid #03363D;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+.contenedor-botones {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+
+.boton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 80px;
+	background: #174D4D;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.boton span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+@media screen and (max-width:800px) {
+	body {
+		background-color: yellow;
+	}
+}
+
+@media screen and (orientation:portrait) {
+	body {
+		background-color: black;
+	}
+
+	* {
+		color: white;
+	}
+}
+
+@media screen and (min-width:600px) {
+	li {
+		width: 100px;
+	}
+}
+
+@media screen and (min-width:900px) {
+	li {
+		width: 200px;
+	}
+}
