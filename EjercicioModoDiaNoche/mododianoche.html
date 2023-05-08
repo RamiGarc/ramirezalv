@@ -7,10 +7,13 @@
     <title>Página Día y Noche</title>
     <link rel="stylesheet" href="./dianoche.css"/>
 </head>
-<body>
+<body id="todo">
     
     <div id="zonaModo">
+        <img id="noche" src="./imagenes/luna.png" onclick="ponerModoNoche()">
+        <img id="dia" src="./imagenes/sol.png" onclick="ponerModoDia()">
         <!-- Esta zona es donde se utilizan los iconos de cambio de modo (sol y luna). -->
+        
     </div>
     <ol>
         <li>texto...</li>
@@ -82,7 +85,7 @@
         <li>texto...</li>
         
     </ol>
-
+    <script src="./dianoche.js"></script>
 
 </body>
 </html>
