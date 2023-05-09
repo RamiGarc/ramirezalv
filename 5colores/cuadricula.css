@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#pantalla {
+#columna {
     margin: 2vh 2vw;
     width: 96vw;
     height: 96vh;
@@ -13,7 +13,7 @@
     justify-content: space-between;
 }
 
-article {
+.fila {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -28,10 +28,9 @@ article {
 div {
     text-align: center;
     font-size: larger;
-    color: white;
+    color: black;
     width: 15vw;
     height: 15vh;
-    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;

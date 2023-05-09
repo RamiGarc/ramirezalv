@@ -6,18 +6,18 @@ const colores = [];
 colores[0] = "green";
 colores[1] = "brown";
 colores[2] = "blue";
-colores[3] = "beige";
+colores[3] = "yellow";
 colores[4] = "magenta";
 
-const colores2 = ["green", "brown", "blue", "beige", "magenta"];
+const colores2 = ["green", "brown", "blue", "yellow", "magenta"];
 
-const colores3 = new Array("green", "brown", "blue", "beige", "magenta");
+const colores3 = new Array("green", "brown", "blue", "yellow", "magenta");
 
 const colores4 = new Array(3);
 colores4[0] = "green";
 colores4[1] = "brown";
 colores4[2] = "blue";
-colores4.push("beige");
+colores4.push("yellow");
 colores4.push("magenta");
 
 function saludar(identificador) {
