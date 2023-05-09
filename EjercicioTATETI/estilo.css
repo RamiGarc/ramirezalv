@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.container div {
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+}
+
+.top.left,
+.middle.left,
+.bottom.left {
+    border-right: none;
+}
+
+.top.right,
+.middle.right,
+.bottom.right {
+    border-left: none;
+}
+
+.top.left,
+.top.center,
+.top.right {
+    border-bottom: none;
+}
+
+.bottom.left,
+.bottom.center,
+.bottom.right {
+    border-top: none;
+}
+
+.highlight {
+    background-color: #eee;
+}
